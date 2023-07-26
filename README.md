@@ -7,3 +7,7 @@ testing only
 - solving 'permission denied' on config file:
   \href{https://dev.to/aileenr/github-actions-fixing-the-permission-denied-error-for-shell-scripts-4gbl}{permission denied}
 - Unity: https://github.com/ThrowTheSwitch/Unity/blob/master/docs/UnityGettingStartedGuide.md
+
+
+- Docker for RP2040:
+https://www.digikey.ch/en/maker/projects/continuous-deployment-using-docker-and-github-actions/d9d18e19361647dbb49070ce6f96c2ea
