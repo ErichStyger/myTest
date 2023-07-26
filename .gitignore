@@ -1,4 +1,4 @@
 /.settings/
 *.o
 *.d
-hello
+hello*
