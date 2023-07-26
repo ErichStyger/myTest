@@ -15,4 +15,18 @@ https://www.digikey.ch/en/maker/projects/continuous-deployment-using-docker-and-
 - Getting started with Docker:
 https://www.digikey.ch/en/maker/projects/getting-started-with-docker/aa0d4c708c274ffd975f3b427e5c0ce6
 
-Installed Docker Desktop
+Installed Docker Desktop.
+
+To run it on a local docker:
+CD to Dockerfile:
+# build image with the Dockerfile:
+docker build -t pico-builder-image .
+
+# create Container from the Image:
+docker create --name pico-builder-container pico-builder-image
+
+docker cp pico-builder-container:/project/src/build/blink.uf2 ./blink.uf2
+
+# REMOVE the container and image
+docker rm pico-builder-container
+docker rmi pico-builder-image
