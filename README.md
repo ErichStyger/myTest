@@ -14,3 +14,5 @@ https://www.digikey.ch/en/maker/projects/continuous-deployment-using-docker-and-
 
 - Getting started with Docker:
 https://www.digikey.ch/en/maker/projects/getting-started-with-docker/aa0d4c708c274ffd975f3b427e5c0ce6
+
+Installed Docker Desktop
