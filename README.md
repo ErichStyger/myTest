@@ -11,3 +11,6 @@ testing only
 
 - Docker for RP2040:
 https://www.digikey.ch/en/maker/projects/continuous-deployment-using-docker-and-github-actions/d9d18e19361647dbb49070ce6f96c2ea
+
+- Getting started with Docker:
+https://www.digikey.ch/en/maker/projects/getting-started-with-docker/aa0d4c708c274ffd975f3b427e5c0ce6
