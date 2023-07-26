@@ -1,5 +1,9 @@
 all: hello
 
+test:
+	chmod +x hello
+	./hello
+
 clean:
 	-rm hello
 
