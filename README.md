@@ -15,10 +15,10 @@ https://www.digikey.ch/en/maker/projects/getting-started-with-docker/aa0d4c708c2
 # Docker
 - Installed Docker Desktop
 - To run it on a local docker, cd to Dockerfile:
-- build image with the Dockerfile:
+- build image with the instructions in the Dockerfile:
 docker build -t pico-builder-image .
 
-- reate Container from the Image:
+- create a Container from the Image:
 docker create --name pico-builder-container pico-builder-image
 - copy file out of container
 docker cp pico-builder-container:/project/src/build/blink.uf2 ./blink.uf2
