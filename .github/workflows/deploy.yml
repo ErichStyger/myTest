@@ -1,7 +1,8 @@
 name: Deploy new version
 
-# Only deploy when a new tag is pushed
+# Only deploy when a new tag is pushed or manually (workflow_dispatch)
 on:
+    workflow_dispatch
     push:
         tags:
           - "v*.*.*"
